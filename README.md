@@ -1,1 +1,0 @@
-# minseoi.github.io
