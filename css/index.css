@@ -1,0 +1,64 @@
+html {
+    font-family: 'NanumBarunGothic';
+    margin: 0;
+}
+
+header {
+    height: 95vh;
+    width: auto;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .infos {
+    display: block;
+}
+
+header .container .infos h4 {
+    font-family: 'NanumBarunGothicExtraLight';
+    font-size: 1.6rem;
+    color: midnightblue;
+    margin: 0;
+}
+
+header .container .infos h3 {
+    font-family: 'NanumBarunGothicBold';
+    font-size: 4rem;
+    background-color:midnightblue;
+    color: white;
+    padding: 0.6rem 1rem 0.2rem 1rem;
+    margin: 0;
+}
+
+header .container .infos p {
+    font-size: rem;
+    color: black;
+    margin: 2rem 0;
+    line-height: 1.6rem;
+}
+
+nav {
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li a {
+    border: 0.15rem solid midnightblue;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color: midnightblue;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 1.5rem;
+}
+
