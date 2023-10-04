@@ -1,3 +1,8 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    font-size: calc(13px + 0.9vmin);
+}
+
 html {
     font-family: 'NanumBarunGothic';
     margin: 0;
@@ -9,6 +14,7 @@ header {
 }
 
 header .container {
+    padding-top: 2%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -21,25 +27,28 @@ header .container .infos {
 
 header .container .infos h4 {
     font-family: 'NanumBarunGothicExtraLight';
-    font-size: 1.6rem;
-    color: midnightblue;
+    font-size: 1.5rem;
+    color: mediumseagreen;
     margin: 0;
 }
 
 header .container .infos h3 {
     font-family: 'NanumBarunGothicBold';
-    font-size: 4rem;
-    background-color:midnightblue;
+    font-size: 3.5rem;
+    background-color:mediumseagreen;
     color: white;
-    padding: 0.6rem 1rem 0.2rem 1rem;
+    padding: 0.6rem 1rem 0.1rem 1rem;
     margin: 0;
 }
 
 header .container .infos p {
-    font-size: rem;
     color: black;
     margin: 2rem 0;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
+}
+
+.comments {
+    color: mediumseagreen;
 }
 
 nav {
@@ -53,10 +62,10 @@ nav ul {
 }
 
 nav ul li a {
-    border: 0.15rem solid midnightblue;
+    border: 0.15rem solid mediumseagreen;
     border-radius: 1rem;
     font-size: 1.2rem;
-    color: midnightblue;
+    color: mediumseagreen;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 0 1.5rem;
