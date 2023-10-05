@@ -3,7 +3,7 @@
 * {
     -webkit-font-smoothing: antialiased;
     font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-    font-size: calc(13px + 0.7vmin);
+    font-size: calc(1px + 2vmin);
 }
 
 html body {
@@ -25,6 +25,10 @@ header .container {
     justify-content: center;
 }
 
+header .container .infos {
+    width: 100%;
+}
+
 header .container .infos h4 {
     font-weight: 500;
     font-size: 2rem;
@@ -37,7 +41,7 @@ header .container .infos h3 {
     font-size: 5rem;
     background-color:#1e549f;
     color: white;
-    padding: 0.6rem 1rem 0.1rem 1rem;
+    padding: 0.1rem 1rem 0 1rem;
     margin: 0;
 }
 
