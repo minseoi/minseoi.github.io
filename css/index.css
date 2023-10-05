@@ -1,41 +1,40 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
 * {
     -webkit-font-smoothing: antialiased;
-    font-size: calc(13px + 0.9vmin);
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
-html {
-    font-family: 'NanumBarunGothic';
+html body {
     margin: 0;
 }
 
 header {
     height: 95vh;
-    width: auto;
-}
-
-header .container {
-    padding-top: 2%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header .container .infos {
-    display: block;
+header .container {
+    max-width: 100vh;
+    width: 92vmin;
+    padding-top: 2vh;
+    display: inherit;
+    justify-content: center;
 }
 
 header .container .infos h4 {
-    font-family: 'NanumBarunGothicExtraLight';
-    font-size: 1.5rem;
-    color: mediumseagreen;
-    margin: 0;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #1e549f;
+    margin: 0.4rem 0;
 }
 
 header .container .infos h3 {
-    font-family: 'NanumBarunGothicBold';
-    font-size: 3.5rem;
-    background-color:mediumseagreen;
+    font-weight: 700;
+    font-size: 5rem;
+    background-color:#1e549f;
     color: white;
     padding: 0.6rem 1rem 0.1rem 1rem;
     margin: 0;
@@ -48,7 +47,7 @@ header .container .infos p {
 }
 
 .comments {
-    color: mediumseagreen;
+    color: #1e549f;
 }
 
 nav {
@@ -62,10 +61,10 @@ nav ul {
 }
 
 nav ul li a {
-    border: 0.15rem solid mediumseagreen;
+    border: 0.15rem solid #1e549f;
     border-radius: 1rem;
     font-size: 1.2rem;
-    color: mediumseagreen;
+    color: #1e549f;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 0 1.5rem;
