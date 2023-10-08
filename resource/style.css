@@ -64,6 +64,7 @@ section {
 .main-image {
     position: relative;
     text-align: center;
+    margin: 0;
     z-index: -1;
 }
 
@@ -75,32 +76,32 @@ section {
     transform: translate( -50%, -50% );
     color: white;
     width: 100%;
-    white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 설정 */
-    font-size: 7.5vmin;
-    line-height: 16vmin;
+    white-space: nowrap;
+    font-size: 7vw;
+    line-height: 18vmin;
 }
 
-/* 화면 너비에 따라 적절한 스타일을 설정하고 싶다면 미디어 쿼리를 사용할 수 있습니다 */
 @media (max-width: 768px) {
     .main-image-text {
-        white-space: normal; /* 화면이 좁아지면 텍스트가 줄 바꿈됩니다 */
+        white-space: normal;
         font-size: 13vmin;
     }
 }
 
-.aboutme {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.aboutme h1 .comments {
+.comments {
+    font-style: italic;
     font-size: 0.8em;
     font-weight: 400;
     color: #6AB78E;
 }
 
-.aboutme p {
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container p {
     text-align: left;
     width: auto;
 }
