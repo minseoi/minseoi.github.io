@@ -24,7 +24,7 @@ html body {
     color: #1E1E1E;
     font-size: 1.125rem;
     font-weight: 700;
-    margin: 0.5625rem 1.125rem;
+    margin: 0.28125rem 1.125rem;
     text-decoration: none;
 }
 
@@ -33,7 +33,7 @@ html body {
 }
 
 #content {
-    margin-top: 4.2rem;
+    margin-top: 3.8rem;
     background-color: blanchedalmond;
     height: 1500px;
     line-height: 1.8rem;
