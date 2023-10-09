@@ -49,7 +49,6 @@ html body {
 
 #content {
     padding: 0 2.25rem;
-    height: 1500px;
     line-height: 1.8rem;
 }
 
@@ -61,11 +60,17 @@ section {
     overflow: hidden;
 }
 
-.main-image {
+.main-image{
     position: relative;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin: 0;
     z-index: -1;
+}
+
+.main-image video {
+    object-fit: cover;
 }
 
 .main-image-text {
@@ -77,13 +82,14 @@ section {
     color: white;
     width: 100%;
     white-space: nowrap;
-    font-size: 7vw;
-    line-height: 18vmin;
+    font-size: calc( 4vmin + 3.5vw );
+    text-shadow: #1E1E1E 0px 0px 0.5rem;
 }
 
 @media (max-width: 768px) {
     .main-image-text {
         white-space: normal;
+        line-height: 18vmin;
         font-size: 13vmin;
     }
 }
@@ -104,4 +110,12 @@ section {
 .container p {
     text-align: left;
     width: auto;
+}
+
+footer {
+    margin-top: 3.8rem;
+    padding: 1rem 0;
+    color:#1E1E1E;
+    text-align: center;
+    font-size: 0.8rem;
 }
