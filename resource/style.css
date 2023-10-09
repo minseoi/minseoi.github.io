@@ -5,6 +5,7 @@ html body {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 #header {
@@ -81,7 +82,7 @@ section {
     color: white;
     width: 100%;
     white-space: nowrap;
-    font-size: calc( 4vmin + 3.5vw );
+    font-size: min(calc( 4vmin + 3.5vw ), 12rem);
     text-shadow: #1E1E1E 0px 0px 0.5rem;
 }
 
@@ -91,6 +92,12 @@ section {
         line-height: 18vmin;
         font-size: 13vmin;
     }
+}
+
+#nametag {
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+    font-weight: 700;
 }
 
 .comments {
@@ -104,6 +111,20 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.container h1 {
+    margin: 1.2rem;
+    padding: 0.3rem 2rem;
+    background-color: #1E1E1E;
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 0.6rem;
+}
+
+.container h2 {
+    margin: 0;
+    font-size: 1.12rem;
 }
 
 .container p {
