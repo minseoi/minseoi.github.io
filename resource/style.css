@@ -137,6 +137,13 @@ section {
     line-height: 2rem;
 }
 
+.period {
+    margin-top: -0.5rem;
+    font-size: 0.8rem;
+    font-style: normal;
+    color: #303030;
+}
+
 .social {
     padding: 1rem;
     border-radius: 2rem;
