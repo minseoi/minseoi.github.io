@@ -60,7 +60,7 @@ section {
     overflow: hidden;
 }
 
-.main-image{
+.main-title{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -69,11 +69,15 @@ section {
     z-index: -1;
 }
 
-.main-image video {
+.main-title img {
     object-fit: cover;
 }
 
-.main-image-text {
+.main-title video {
+    object-fit: cover;
+}
+
+.main-title-text {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -87,7 +91,7 @@ section {
 }
 
 @media (max-width: 768px) {
-    .main-image-text {
+    .main-title-text {
         white-space: normal;
         line-height: 18vmin;
         font-size: 13vmin;
@@ -95,7 +99,7 @@ section {
 }
 
 #nametag {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-top: 0.8rem;
     font-weight: 700;
 }
@@ -118,18 +122,43 @@ section {
     padding: 0.3rem 2rem;
     background-color: #1E1E1E;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     letter-spacing: 0.6rem;
 }
 
 .container h2 {
     margin: 0;
-    font-size: 1.12rem;
+    font-size: 1.2rem;
 }
 
 .container p {
     text-align: left;
     width: auto;
+    line-height: 2rem;
+}
+
+.social {
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 13rem;
+}
+
+.social img {
+    padding: 0.48rem;
+}
+
+.social .desc p {
+    height: 50%;
+    margin: 0 0.5rem;
+}
+
+.social .desc p:first-child {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 footer {
