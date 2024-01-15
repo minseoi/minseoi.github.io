@@ -1,58 +1,25 @@
-# SITE CONFIGURATION
-title: minseoi # your site title
-author: minseoi # You :P
-description: > # Meta description of Homepage
-  minseoi's blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://minseoi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+title:              minseoi
+email:              your-email@example.com
+description:        A Blog Theme by Start Bootstrap
+author:             Start Bootstrap
+baseurl:            ""
+url:                "https://minseoi.github.io"
 
-# SEO PLUGIN
-social:
-  name: minseoi
-  links:
-    - https://www.linkedin.com/in/minseoi
-    - https://github.com/minseoi
+# Social Profiles
+twitter_username:   SBootstrap
+github_username:    StartBootstrap
+facebook_username:  StartBootstrap
+instagram_username:  
+linkedin_username:
 
-# THEME SETTINGS
-navigation: # Navigation links
-  - {name: 'Blog', link: '/'}
-  - {name: 'About', link: '/about'}
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-tagline: >
-  My Blog
-
-hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
-
-github_username:  minseoi # replace with your_github_username or comment to remove link from footer
-instagram_username: minseoi.cc # replace with your_instagram_username or comment to remove link from footer
-
-# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
-
-service_worker: true
-
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge # or pygments or null
-# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
-exclude:
-  - README.md
-  - node_modules
-  - script
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - npm-debug.log
-  - gulpfile.js
-  - sleek.jpg
-
-include: ['_pages']
-permalink: /:title/
-
-compress_html:
-  clippings: all
-
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site

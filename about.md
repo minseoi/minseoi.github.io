@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Me
+description: This is what I do.
+background: '/img/bg-about.jpg'
 ---
 
-조민성 (CHO MINSEONG)
+# Lorem ipsum dolor sit amet
 
-Game Developer
-
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat unde voluptatem! Itaque, eum!
